@@ -1,8 +1,8 @@
 title: Marco André Machado
 description: My Personal Blog
 author: Marco Machado
-logo: /hcz-jekyll-blog/static/img/avatar.png
-github: https://github.com/ashutosh2k12
+logo:
+github: https://github.com/marcomachado
 about:
 
 baseurl: "https://marcomachado.github.io/hcz-jekyll-blog"
