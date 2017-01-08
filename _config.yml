@@ -2,13 +2,9 @@ title: Marco André Machado
 description: My Personal Blog
 author: Marco André Machado
 github: https://github.com/marcomachado
-about:
 
-baseurl: "https://marcomachado.github.io/hcz-jekyll-blog"
-url: "https://marcomachado.github.io/hcz-jekyll-blog"
-
-disqus_shortname: 
-google_analytics: 
+baseurl: "https://marcomachado.github.io"
+url: "https://marcomachado.github.io"
 
 share:
   twitter_username: _marco_machado
