@@ -1,41 +1,49 @@
 ---
-layout: default
+layout: page
 ---
-<div class="row">
-  <div id="myArticle" class="col-sm-9">
-    <div class="post-area post">
-      <header>
-        <h1>{{ page.title }}</h1>
-        <p>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-      </header>
-      <hr>
-      <article>
-        {{content}}
-      </article>
-      <hr>
-        <div class="bdsharebuttonbox">
-            <a href="#" class="bds_more" data-cmd="more"></a>
-            <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
-            <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
-            <a href="#" class="bds_douban" data-cmd="douban" title="分享到豆瓣网"></a>
-            <a href="#" class="bds_fbook" data-cmd="fbook" title="Share to Facebook"></a>
-            <a href="#" class="bds_copy" data-cmd="copy" title="分享到复制网址"></a>
-        </div>
-        <script>
-            window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
-        </script>
+
+{% if page.image and page.headerImage %}
+    <img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
+{% endif %}
+
+<h1 class="title">{{ page.title }}</h1>
+
+<span class="date">
+    <time datetime="{{ page.date | date:"%d-%m-%Y" }}">{{ page.date | date: "%A. %B %d, %Y" }}</time>
+    {% if site.read-time %} - {% include read-time.html %}{% endif %}
+</span>
+
+{% if site.show-tags %}
+    <div class="post-tags">
+        {% for tag in page.tags %}
+            <a class="item" href="{{ site.url }}/tags/#{{ tag | slugify }}">{{ tag }}</a>
+        {% endfor %}
     </div>
-	{% include comments.html %}
-  </div>
-  
-  <div id="content" class="col-sm-3">
-    <!-- <div id="myAffix" class="shadow-bottom-center hidden-xs" data-spy="affix" data-offset-top="0" data-offset-bottom="-20"> -->
-    <div id="myAffix" class="shadow-bottom-center hidden-xs" >
-      <div class="categories-list-header">
-        Content
-      </div>
-      <div class="content-text"></div>
+{% endif %}
+
+{{content}}
+
+{% if site.post-advance-links contains page.category %}
+    <div class="blog-navigation">
+        {% if page.previous.hidden == false and page.previous.url %}
+            <a class="prev" href="{{ site.url }}{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
+        {% else %}
+            <a class="prev"></a>
+        {% endif %}
+        {% if page.next.hidden == false and page.next.url %}
+            <a class="next" href="{{ site.url }}{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
+        {% endif %}
     </div>
-  </div>
-  
-</div>
+{% endif %}
+
+{% if site.related %}
+    {% include related.html %}
+{% endif %}
+
+{% if site.show-author %}
+    {% include author.html %}
+{% endif %}
+
+{% if site.disqus.categories contains page.category %}
+    {% include disqus.html %}
+{% endif %}
