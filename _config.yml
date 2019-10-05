@@ -12,9 +12,9 @@ picture: assets/images/logo_ifce.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
+resume: false
 resume-external: true
-resume-url: lattes.cnpq.br/9735346642847699
+resume-url:
 
 #url: https://koppl.in/indigo
 url: http://marcomachado.github.io
@@ -36,7 +36,7 @@ disqus:
 # if you don't have any of social below, comment the line
 facebook: myfacebook
 twitter: _marco_machado
-google: marco.santos.machado
+#google: marco.santos.machado
 # instagram: myinstagram
 # pinterest: mypinterest
 linkedin: masmachado
@@ -51,7 +51,11 @@ github: marcomachado
 #medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
+lattes: 9735346642847699
 email: marco.machado@ifce.edu.br
+email: marco.santos.machado@gmail.com
+
+timezone: America/Fortaleza
 
 authors:
     johndoe:
@@ -78,10 +82,14 @@ width: normal
 
 # if you don't need projects, comment the *projects* configs below
 projects: true
+teaching: true
+talks: true
+students: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
 blog: true
+pub: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
