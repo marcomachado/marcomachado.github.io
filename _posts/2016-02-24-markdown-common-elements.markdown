@@ -7,10 +7,26 @@ headerImage: false
 tag:
 - markdown
 - elements
+blog: true
 star: true
-category: blog
 author: johndoe
 description: Markdown summary with different options
+---
+
+## Summary:
+
+You can pick as item to see how to apply in markdown.
+
+### Comum Elements
+- [Basic formatting](#basic-formatting)
+- [Headings](#headings)
+- [Lists](#lists)
+- [Paragraph Modifiers](#paragraph-modifiers)
+- [Urls](#urls)
+- [Horizontal Rule](#horizontal-rule)
+- [Images](#images)
+- [Code](#code)
+
 ---
 
 ## Basic formatting

@@ -2,45 +2,28 @@
 title: About
 layout: page
 ---
-![Profile Image]({{ site.url }}/{{ site.picture }})
+<div class="side-by-side"> 
+    <div class="toleft"> <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Profile Image">
+    </div>
+    <div class="toright">
+        <p>I am a Professor in the <a href="http://portal.dc.ufc.br/">Department of Computer Science</a> at the <a href="http://www.ufc.br">Federal University of Ceara</a>, in Brazil. I usually teach <a href="/datavis-course/">Data Visualization course</a> for undergraduate and graduate students and a Numerical Methods course for undergraduates students only.</p>
+        
+        <p>My research interests include data visualization and data science.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>I’ve got a PhD in Computing at the University of Utah in 2010. Previously I’ve got a B.S and an M.S degree in Computer Science from the Federal University of Ceara in Brazil. </p>
+    </div>
+</div>
+I was one of the main developers of [VisTrails](http://www.vistrails.org) and [crowdLabs](http://www.crowdlabs.org).
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+I have also worked at the [Scientific Computing and Imaging Institute](http://www.sci.utah.edu) at the [University of Utah](http://www.utah.edu) with Professors [Cláudio Silva](http://vgc.poly.edu/~csilva/) and [Juliana Freire](http://vgc.poly.edu/~juliana/) (both now working at [NYU-Poly](http://www.poly.edu)) and at [Los Alamos National Lab](http://www.lanl.gov). I am also a former [fulbrighter](http://www.iie.org/Fulbright/). 
 
-<h2>Skills</h2>
+Office address:
+Dr. Emanuele Santos<br>
+Universidade Federal do Ceará - Centro de Ciências - Departamento de Computação<br>
+Av. Humberto Monte, s/n <br>
+Bloco 952, Campus do Pici - Pici<br> 
+CEP: 60440-593<br>
+Fortaleza - CE - Brasil<br>
 
-<ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>NodeJS</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
-</ul>
-
-<h2>Projects</h2>
-
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
+Phone: +55-85-33669233 Ext. 221 <br>
+Fax: +55-85-33669837<br>
