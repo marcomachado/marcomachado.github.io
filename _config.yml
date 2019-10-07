@@ -9,7 +9,7 @@
 title: Marco André Machado
 email: marco.machado@ifce.edu.br
 description: > # this means to ignore newlines until "baseurl:"
-  Professor do Instituto de Educação, Ciência e Tecnologia do Ceará (IFCE).
+  Professor do Instituto Federal de Educação, Ciência e Tecnologia do Ceará (IFCE).
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: _marco_machado
