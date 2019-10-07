@@ -6,15 +6,14 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Rodrigo Rocha
-email: rodrigo@dcc.ufba.br
+title: Marco André Santos Machaod
+email: marco.machado@ifce.edu.br
 description: > # this means to ignore newlines until "baseurl:"
-  Professor do Departamento de Ciência da Computação (DCC)
-  da Universidade Federal da Bahia (UFBA) desde 2015.
+  Professor do Instituto de Educação, Ciência e Tecnologia do Ceará (IFCE).
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: xrodrigorgs
-github_username:  rodrigorgs
+twitter_username: _marco_machado
+github_username:  marcomachado
 
 # Build settings
 markdown: kramdown
