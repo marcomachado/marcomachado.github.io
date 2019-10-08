@@ -14,27 +14,9 @@ Quer fazer um projeto final de graduação ou dissertação de mestrado comigo? 
 
 ### Estudantes atuais
 
-**Mestrado** (entre parênteses, início no curso):
+**Graduação**:
 
-- (2016.1) André Melhor Miranda
-- (2016.1) Daniel Luis Moreira Timponi
-
-<!--
-- (2015.1) Vagner da Silva Amaral
-- (2016.1) Álamo Carlos Cruz da Silva
--->
-
-**Graduação** (entre parênteses, período de matrícula em Projeto Final 1):
-
-- (2015.2) Allan dos Santos Oliveira
-- (2015.2) Philippe Luiz Barbosa Correia
-- (2015.2) Rafael Velasco Dias Muller
-- (2016.1) Dennis Lessa
-- (2016.1) Gabriel Erbetta
-- (2016.1) Lucas Ayres
-- (2016.1) Renata de Gino
-- (2016.1) Tercio Souza de Jesus
 
 ### Egressos
-
-(nenhum por enquanto)
+[2019] Nayanne Carvalho Uchoa. Avaliação de Usabilidade do Sistema Web Q-Acadêmico.
+[2018] Alyne Alves da Costa - Avaliação de Usabilidade Usando Checklist em Softwares de Tradução de Libras
