@@ -18,5 +18,5 @@ Quer fazer um projeto final de graduação ou dissertação de mestrado comigo? 
 
 
 ### Egressos
-[2019] Nayanne Carvalho Uchoa. Avaliação de Usabilidade do Sistema Web Q-Acadêmico.
-[2018] Alyne Alves da Costa - Avaliação de Usabilidade Usando Checklist em Softwares de Tradução de Libras
+* [2019] Nayanne Carvalho Uchoa. Avaliação de Usabilidade do Sistema Web Q-Acadêmico.
+* [2018] Alyne Alves da Costa - Avaliação de Usabilidade Usando Checklist em Softwares de Tradução de Libras
