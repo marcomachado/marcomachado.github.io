@@ -11,9 +11,9 @@ mercado de trabalho.
 **Turma 01**
 
 * **Semana 01: Curso Introduction to Python (13/10 a 20/10)**
-*   - Listas, NumPy (média, mediana, desvio padrão, coeficiente de correlação de Pearson)
-*   - [Correlation in Python](http://benalexkeen.com/correlation-in-python/) 
-*   - [Correlação: direto ao ponto](https://medium.com/brdata/correla%C3%A7%C3%A3o-direto-ao-ponto-9ec1d48735fb)
+    - Listas, NumPy (média, mediana, desvio padrão, coeficiente de correlação   de Pearson)
+    - [Correlation in Python](http://benalexkeen.com/correlation-in-python/) 
+    - [Correlação: direto ao ponto](https://medium.com/brdata/correla%C3%A7%C3%A3o-direto-ao-ponto-9ec1d48735fb)
 
 
 * **Semana 02:**
